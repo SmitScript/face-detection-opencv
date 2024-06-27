@@ -15,7 +15,7 @@ public class FXFaceDetectionApplication extends Application {
     public void start(Stage stage) throws IOException {
         try{
         FXMLLoader fxmlLoader = new FXMLLoader(FXFaceDetectionApplication.class.getResource("FXFaceDetection.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 600);
+        Scene scene = new Scene(fxmlLoader.load(), 800, 800);
         stage.setTitle("Face Detection");
         stage.setScene(scene);
         stage.show();
